@@ -26,18 +26,20 @@ d.	Rita flödet som en enkel bild eller lista.<br>
 e. Vad skulle kunna gå fel i flödet?<br>
 	Svar: tester kan misslyckas, deploy kan misslyckas pga nätverksproblem
  
-e.	Vilka tester är viktigast i just ditt flöde?<br>
+f.	Vilka tester är viktigast i just ditt flöde?<br>
   Svar: enhetstester och integrationstester
   
-f.	Hur kan testning förbättra kvaliteten?<br>
+g.	Hur kan testning förbättra kvaliteten?<br>
   Svar: eventuella buggar fångas tidigt i processen och blir därmed billigare att åtgärda
   Säkerställer att befintlig kod inte bryts av ny kod
   
-3. Hur tror du att automatiserad testning påverkar en utvecklares vardag?<br>
+2. Hur tror du att automatiserad testning påverkar en utvecklares vardag?<br>
 	Svar: Snabb feedback av tester för utvecklaren. Mer tid för utveckling
 
-5. Vad är en fördel och en nackdel med att ha testning inbyggd i CI/CD-flödet?<br>
+3. Vad är en fördel och en nackdel med att ha testning inbyggd i CI/CD-flödet?<br>
 	Svar: Fångar fel innan det når produktion är en fördel. Nackel kan vara att det är tidskrävande att sätta upp initialt.
 
-7. Om du skulle införa CI/CD i ett skarpt projekt – vad skulle du börja med?<br>
+4. Om du skulle införa CI/CD i ett skarpt projekt – vad skulle du börja med?<br>
 	Svar: Välja verisionshanteringsverktyg och CI/CD verktyg. Sätta upp en grundläggande pipeline och bygga ut med fler tester med tiden.
+
+5. Jag har ingen egen erfarenhet av CI/CD verktyg. 
