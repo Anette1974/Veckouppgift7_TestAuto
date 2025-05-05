@@ -4,32 +4,32 @@ Veckouppgift 7 – GI/CD Pipelines
 1. Beskriv ett CI/CD-flöde för ett tänkt projekt (till exempel en Flask-app eller
 webbtjänst).
 
-a.	Vad händer när utvecklaren pushar kod?<br>
+	1a. Vad händer när utvecklaren pushar kod?<br>
   Svar: Koden pushas till tex GitHub och en CI/CD pipeline, tex GitHub Actions triggas automatiskt
   
-b.	Vilka tester ska köras?<br>
+	1b. Vilka tester ska köras?<br>
   Svar: Först bör snabba unit tester köras och sedan tyngre integrationstester. 
   
-c.	När och hur byggs applikationen?<br>
+	1c. När och hur byggs applikationen?<br>
   Svar: applikationen byggs efter att testerna har körts och är godkända
   
-d.	Rita flödet som en enkel bild eller lista.<br>
+	1d. Rita flödet som en enkel bild eller lista.<br>
   Svar: Push till GitHub<br>
   [1] CI/CD triggas<br>
-      ↓<br>
+       ↓<br>
   [2] Enhetstester och integrationstester<br>
       ↓<br>
   [3] Om testerna går igenom så byggs applikationen<br>
       ↓<br>
   [4] Deployment till QA miljö
   
-e. Vad skulle kunna gå fel i flödet?<br>
+	1e. Vad skulle kunna gå fel i flödet?<br>
 	Svar: tester kan misslyckas, deploy kan misslyckas pga nätverksproblem
  
-f.	Vilka tester är viktigast i just ditt flöde?<br>
+	1f. Vilka tester är viktigast i just ditt flöde?<br>
   Svar: enhetstester och integrationstester
   
-g.	Hur kan testning förbättra kvaliteten?<br>
+	1g. Hur kan testning förbättra kvaliteten?<br>
   Svar: eventuella buggar fångas tidigt i processen och blir därmed billigare att åtgärda
   Säkerställer att befintlig kod inte bryts av ny kod
   
